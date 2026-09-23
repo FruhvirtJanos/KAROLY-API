@@ -24,7 +24,7 @@ app.get("/api/random", (req, res) => {
 
     // Send JSON response
     res.json({
-        image: `http://localhost:${PORT}/images/${randomImage}`
+        image: `/images/${randomImage}`
     });
 });
 
