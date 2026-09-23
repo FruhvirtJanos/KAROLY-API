@@ -24,7 +24,7 @@ app.get("/api/random", (req, res) => {
 
     // Send JSON response
     res.json({
-        image: `/images/${randomImage}`
+        image: `https://karoly-api.onrender.com/images/${randomImage}`
     });
 });
 
